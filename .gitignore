@@ -1,0 +1,21 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Conda and Python virtual environments
+.conda/
+conda-env/
+env/
+venv/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local grading output (keep lab01_results.json: it is a submission artifact)
+lab01_score.json
